@@ -1265,7 +1265,7 @@ impl eframe::App for DevDashboard {
                         if ui.button("⚙").on_hover_text("Settings").clicked() {
                             self.show_settings = true;
                         }
-                        ui.label(format!("v0.1.1-beta.3"));
+                        ui.label(format!("v0.2.1-beta.4"));
                     });
                 });
             });
